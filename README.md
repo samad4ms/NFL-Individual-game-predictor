@@ -8,7 +8,7 @@ Main files in this repo:
 1) MODELING phase 2.ipynb<br>
 This notebook contains the main feature engineering. Here I split the master dataframe into home and away tables, and then created exponential moving average features (EMA) to extract more signal from the trends that may have developed in previous games.
 
-FINAL_MODELS.ipynb<br>
+2) FINAL_MODELS.ipynb<br>
 Here I predicted the individual game outcomes with Logistic regression, SVM and XGboost algorithms. I avoided data leakage by preserving the chronology of the data while grid searching parameters, training and testing. The final models predict the correct game winner roughly 64% of the time.
 
 
